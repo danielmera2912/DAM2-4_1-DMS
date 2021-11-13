@@ -40,7 +40,9 @@ class Modulo(){
     }
 
     fun matricularAlumno(alumno: Alumno){
-        alumnos+=alumno
+        if(alumnos.size<15){
+            alumnos+=alumno
+        }
     }
     // 13
     fun darBaja(alumno:Alumno){
