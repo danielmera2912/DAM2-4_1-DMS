@@ -38,7 +38,7 @@ class Modulo(){
             return 3
         }
     }
-
+    // 12
     fun matricularAlumno(alumno: Alumno){
         if(alumnos.size<15){
             alumnos+=alumno
